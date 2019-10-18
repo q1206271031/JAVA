@@ -24,4 +24,5 @@ interface IAmphithe extends IFlying,IRunning{
     void fly();
     @Override
     void run();
+
 }

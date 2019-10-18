@@ -4,13 +4,16 @@ public class Test {
     public static void main(String[] args) {
 //        Cat cat = new Cat("圆");
 //        walk(cat);
+
 //        Frog frog = new Frog("扁");
 //        walk(frog);
 //        swim(frog);
+//
 //        Duck duck = new Duck("圆");
 //        fly(duck);
 //        walk(duck);
 //        swim(duck);
+
         Amphithe amphithe = new Amphithe("扁");
         walk(amphithe);
         fly(amphithe);
