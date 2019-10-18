@@ -17,3 +17,11 @@ interface IRunning{
 interface ISwimming{
     void swim();
 }
+
+//接口的继承
+interface IAmphithe extends IFlying,IRunning{
+    @Override
+    void fly();
+    @Override
+    void run();
+}

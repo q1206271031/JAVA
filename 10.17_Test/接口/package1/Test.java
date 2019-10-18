@@ -7,10 +7,13 @@ public class Test {
 //        Frog frog = new Frog("扁");
 //        walk(frog);
 //        swim(frog);
-        Duck duck = new Duck("圆");
-        fly(duck);
-        walk(duck);
-        swim(duck);
+//        Duck duck = new Duck("圆");
+//        fly(duck);
+//        walk(duck);
+//        swim(duck);
+        Amphithe amphithe = new Amphithe("扁");
+        walk(amphithe);
+        fly(amphithe);
     }
 
     public static void fly(IFlying flying){
