@@ -7,6 +7,7 @@ class Animal {
         this.name = name;
     }
 }
+//接口隐式抽象
 interface IFlying{
     void fly();
 }
